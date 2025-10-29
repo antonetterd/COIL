@@ -1,0 +1,2 @@
+Scaler: scaler_3class_20251028_174843.pkl
+Features: 384

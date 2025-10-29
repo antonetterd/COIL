@@ -1,0 +1,30 @@
+{
+  "feature_dim": 384,
+  "class_labels": [
+    "discomfort",
+    "hungry",
+    "pain",
+    "sleepy"
+  ],
+  "label_to_index": {
+    "discomfort": 0,
+    "hungry": 1,
+    "pain": 2,
+    "sleepy": 3
+  },
+  "whisper_model": "openai/whisper-tiny",
+  "target_samples_per_class": 610,
+  "best_config": {
+    "kernel": "rbf",
+    "C": 1.0,
+    "gamma": "scale"
+  },
+  "test_accuracy": 1.0,
+  "overall_metrics": {
+    "Accuracy": 1.0,
+    "Macro Precision": 1.0,
+    "Macro Recall": 1.0,
+    "Macro F1-Score": 1.0
+  },
+  "training_timestamp": "20251025_181648"
+}

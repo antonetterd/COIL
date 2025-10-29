@@ -1,0 +1,1 @@
+{"feature_dim": 384, "class_labels": ["discomfort", "hungry", "pain", "sleepy"], "label_to_index": {"discomfort": 0, "hungry": 1, "pain": 2, "sleepy": 3}, "whisper_model": "openai/whisper-tiny", "target_samples_per_class": 610}

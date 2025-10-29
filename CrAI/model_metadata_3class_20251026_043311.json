@@ -1,0 +1,40 @@
+{
+  "feature_dim": 384,
+  "class_labels": [
+    "discomfort_pain",
+    "hungry",
+    "sleepy"
+  ],
+  "label_to_index": {
+    "discomfort_pain": 0,
+    "hungry": 1,
+    "sleepy": 2
+  },
+  "whisper_model": "openai/whisper-tiny",
+  "target_samples_per_class": 1000,
+  "best_config": {
+    "kernel": "poly",
+    "C": 1.0,
+    "degree": 2
+  },
+  "test_accuracy": 0.7766666666666666,
+  "overall_metrics": {
+    "Accuracy": 0.7766666666666666,
+    "Precision": 0.8324093061712325,
+    "Recall": 0.7766666666666667,
+    "F1-Score": 0.7784282093559343
+  },
+  "training_timestamp": "20251026_043311",
+  "num_classes": 3,
+  "classes": [
+    "discomfort_pain",
+    "hungry",
+    "sleepy"
+  ],
+  "bias_correction_applied": true,
+  "bias_correction_rules": {
+    "hungry_sleepy_threshold": 0.8,
+    "correction_factor": 0.15,
+    "hungry_sleepy_balance_threshold": 0.65
+  }
+}

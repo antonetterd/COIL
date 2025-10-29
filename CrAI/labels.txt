@@ -1,0 +1,3 @@
+discomfort_pain
+hungry
+sleepy
